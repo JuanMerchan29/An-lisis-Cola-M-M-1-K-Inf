@@ -11,8 +11,7 @@ class Cliente(Agent):
         self.fin = None
 
     def step(self):
-        # Los clientes no hacen nada por sí mismos,
-        # su comportamiento depende del servidor.
+.
         pass
 
 class Servidor(Agent):
@@ -77,7 +76,7 @@ class SistemaColas(Model):
         if not self.terminados:
             return {"N_s": 0, "N_w": 0, "T_s": 0, "T_w": 0, "Rho": 0}
 
-        # Métricas del sistema
+   
         tiempos_sistema = [c.fin - c.llegada for c in self.terminados]
         tiempos_cola = [c.inicio - c.llegada for c in self.terminados]
 
