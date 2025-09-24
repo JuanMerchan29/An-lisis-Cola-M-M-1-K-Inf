@@ -68,9 +68,9 @@ $T_w = \frac{N_w}{\lambda(1 - P_K)}$
 ## Simulación con MESA
 La implementación en Python se construyó usando **MESA** (framework de simulación basada en agentes).  
 
-- **Clientes**: llegan según un proceso de Poisson con parámetro \( \lambda \).  
-- **Servidor**: atiende clientes en orden de llegada (FIFO) con tasa \( \mu \).  
-- La simulación registra: \( N_s \), \( T_s \), \( N_w \), \( T_w \), utilización del servidor y probabilidad de bloqueo.  
+- **Clientes**: llegan según un proceso de Poisson con parámetro $\( \lambda \)$.  
+- **Servidor**: atiende clientes en orden de llegada (FIFO) con tasa $\( \mu \)$.  
+- La simulación registra: $\( N_s \), \( T_s \), \( N_w \), \( T_w \)$, utilización del servidor y probabilidad de bloqueo.  
 
 Conforme aumenta la duración de la simulación, los resultados empíricos se aproximan a los valores teóricos.
 
@@ -79,14 +79,14 @@ Conforme aumenta la duración de la simulación, los resultados empíricos se ap
 ## Resultados
 Se probaron tres configuraciones diferentes para observar el comportamiento del sistema:
 
-- **Escenario 1 (baja carga):** \( \lambda = 0.4, \mu = 1.2, \rho = 0.333 \).  
-  Resultados teóricos: \( N_s = 0.5, T_s = 1.25, N_w = 0.167, T_w = 0.417 \).  
+- **Escenario 1 (baja carga):** $\( \lambda = 0.4, \mu = 1.2, \rho = 0.333 \)$.  
+  Resultados teóricos:$\( N_s = 0.5, T_s = 1.25, N_w = 0.167, T_w = 0.417 \)$.  
 
-- **Escenario 2 (carga media):** \( \lambda = 1.2, \mu = 2.0, \rho = 0.6 \).  
-  Resultados teóricos: \( N_s = 1.5, T_s = 1.25, N_w = 0.9, T_w = 0.75 \).  
+- **Escenario 2 (carga media):** $\( \lambda = 1.2, \mu = 2.0, \rho = 0.6 \)$.  
+  Resultados teóricos: $\( N_s = 1.5, T_s = 1.25, N_w = 0.9, T_w = 0.75 \)$.  
 
-- **Escenario 3 (alta carga):** \( \lambda = 1.8, \mu = 2.0, \rho = 0.9 \).  
-  Resultados teóricos: \( N_s = 9.0, T_s = 5.0, N_w = 8.1, T_w = 4.5 \).  
+- **Escenario 3 (alta carga):** $\( \lambda = 1.8, \mu = 2.0, \rho = 0.9 \)$.  
+  Resultados teóricos: $\( N_s = 9.0, T_s = 5.0, N_w = 8.1, T_w = 4.5 \)$.  
 
 En todos los casos, se espera que los valores simulados se acerquen a los teóricos, validando el modelo matemático.
 
