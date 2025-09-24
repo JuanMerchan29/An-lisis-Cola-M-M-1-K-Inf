@@ -74,12 +74,12 @@ N_s = 1.5, \quad T_s = 1.25, \quad N_w = 0.9, \quad T_w = 0.75
 ---
 
 ### 🔹 Escenario 3: Alta carga
-- Parámetros: \( \lambda = 1.8 \), \( \mu = 2.0 \)  
-- Utilización: \( \rho = 0.9 \)  
+- Parámetros: $\( \lambda = 1.8 \), \( \mu = 2.0 \) $ 
+- Utilización: $\( \rho = 0.9 \)  $
 
 Resultados:  
 \[
-N_s = 9.0, \quad T_s = 5.0, \quad N_w = 8.1, \quad T_w = 4.5
+$N_s = 9.0, \quad T_s = 5.0, \quad N_w = 8.1, \quad T_w = 4.5$
 \]
 
 ---
