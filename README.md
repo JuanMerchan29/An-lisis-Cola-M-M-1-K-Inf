@@ -63,7 +63,7 @@ $N_w = N_s - (1 - P_0)$
 $T_w = \frac{N_w}{\lambda(1 - P_K)}$
 \]
 
----
+
 
 ## Simulación con MESA
 La implementación en Python se construyó usando **MESA** (framework de simulación basada en agentes).  
