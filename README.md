@@ -35,32 +35,32 @@ $P_0 = \frac{1 - \rho}{1 - \rho^{K+1}}, \quad \rho = \frac{\lambda}{\mu}$
 
 - **Probabilidad de que existan \( n \) clientes en el sistema**  
 \[
-P_n = \frac{(1 - \rho)\rho^n}{1 - \rho^{K+1}}, \quad n = 0,1,2,\dots,K
+$P_n = \frac{(1 - \rho)\rho^n}{1 - \rho^{K+1}}, \quad n = 0,1,2,\dots,K$
 \]
 
 - **Probabilidad de bloqueo (sistema lleno)**  
 \[
-P_K = \frac{(1 - \rho)\rho^K}{1 - \rho^{K+1}}
+$P_K = \frac{(1 - \rho)\rho^K}{1 - \rho^{K+1}}$
 \]
 
 - **Número esperado de clientes en el sistema**  
 \[
-N_s = \frac{\rho\big(1 - (K+1)\rho^K + K\rho^{K+1}\big)}{(1-\rho)(1-\rho^{K+1})}
+$N_s = \frac{\rho\big(1 - (K+1)\rho^K + K\rho^{K+1}\big)}{(1-\rho)(1-\rho^{K+1})}$
 \]
 
 - **Tiempo promedio en el sistema (Ley de Little)**  
 \[
-T_s = \frac{N_s}{\lambda(1 - P_K)}
+$T_s = \frac{N_s}{\lambda(1 - P_K)}$
 \]
 
 - **Número esperado de clientes en cola**  
 \[
-N_w = N_s - (1 - P_0)
+$N_w = N_s - (1 - P_0)$
 \]
 
 - **Tiempo promedio de espera en cola**  
 \[
-T_w = \frac{N_w}{\lambda(1 - P_K)}
+$T_w = \frac{N_w}{\lambda(1 - P_K)}$
 \]
 
 ---
