@@ -63,8 +63,8 @@ $N_s = 0.5, \quad T_s = 1.25, \quad N_w = 0.167, \quad T_w = 0.417$
 ---
 
 ### 🔹 Escenario 2: Carga media
-- Parámetros:$ \( \lambda = 1.2 \), \( \mu = 2.0 \)$  
-- Utilización:$ \( \rho = 0.6 \) $ 
+- Parámetros: $\( \lambda = 1.2 \), \( \mu = 2.0 \)$  
+- Utilización: $\( \rho = 0.6 \)$ 
 
 Resultados:  
 \[
