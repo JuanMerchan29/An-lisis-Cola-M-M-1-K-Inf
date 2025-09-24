@@ -10,7 +10,7 @@ Este proyecto analiza el funcionamiento de un sistema de colas **M/M/1/K/∞**, 
 
 El trabajo combina la formulación teórica de la **teoría de colas** con la **simulación computacional**, implementada en Python con el framework **MESA**, con el fin de verificar los resultados.
 
----
+
 
 ## Objetivos
 - Formular matemáticamente el sistema M/M/1/K/∞.  
@@ -23,7 +23,7 @@ El trabajo combina la formulación teórica de la **teoría de colas** con la **
 - Desarrollar una simulación en Python con MESA.  
 - Comparar los resultados teóricos frente a los obtenidos en la simulación.  
 
----
+
 
 ## Modelo Matemático
 
@@ -74,7 +74,7 @@ La implementación en Python se construyó usando **MESA** (framework de simulac
 
 Conforme aumenta la duración de la simulación, los resultados empíricos se aproximan a los valores teóricos.
 
----
+
 
 ## Resultados
 Se probaron tres configuraciones diferentes para observar el comportamiento del sistema:
@@ -90,7 +90,6 @@ Se probaron tres configuraciones diferentes para observar el comportamiento del 
 
 En todos los casos, se espera que los valores simulados se acerquen a los teóricos, validando el modelo matemático.
 
----
 
 ## Conclusiones
 - Los resultados simulados se alinean con las expresiones teóricas del sistema **M/M/1/K/∞**.  
