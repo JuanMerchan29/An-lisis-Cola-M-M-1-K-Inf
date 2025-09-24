@@ -27,9 +27,10 @@ El trabajo combina la formulación teórica de la **teoría de colas** con la **
 
 ## Modelo Matemático
 
-- **Probabilidad de que el sistema esté vacío**  
+- **Probabilidad de que el sistema esté vacío**
+   
 \[
-P_0 = \frac{1 - \rho}{1 - \rho^{K+1}}, \quad \rho = \frac{\lambda}{\mu}
+$P_0 = \frac{1 - \rho}{1 - \rho^{K+1}}, \quad \rho = \frac{\lambda}{\mu}$
 \]
 
 - **Probabilidad de que existan \( n \) clientes en el sistema**  
